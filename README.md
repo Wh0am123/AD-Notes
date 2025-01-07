@@ -220,9 +220,11 @@ impacket-secretsdump svc_ldap@AUTHORITY.HTB`
 find usernames using ldap
 
   `ldapsearch -x -H ldap://10.10.10.161 -D '' -w '' -b "DC=htb,DC=local" | grep userPrincipalName:`
+  
 also grep for svc accounts
 
   `ldapsearch -x -H ldap://10.10.10.161 -D '' -w '' -b "DC=htb,DC=local" | grep svc `
+  
 check for password in description
 
   `ldapsearch -x -H ldap://10.10.10.169 -D '' -w '' -b "DC=megabank,DC=local" | grep -i description:`
