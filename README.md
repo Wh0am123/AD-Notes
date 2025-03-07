@@ -1,3 +1,8 @@
+# Introduction
+These are some **very unorganized** notes that I have.
+Hopefully i fix them sometime :)
+
+# Here we go!
 `ldapdomaindump -d 'resourced.local' ldap://192.168.211.175`
 
 `ldapdomaindump -u 'authority.htb\svc_ldap' -p 'lDaP_1n_th3_cle4r!' -d 'authority.htb' ldaps://10.129.144.243`
